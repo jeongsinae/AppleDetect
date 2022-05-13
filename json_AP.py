@@ -18,19 +18,19 @@ with open('C:/Users/aaa/Desktop/9th Apple/1~10/via_project_8Sep2021_12h24m_json.
     for i in range(12):
         print(file_name[i])
         name=file_name[i]
-        for k in json_data[name]["regions"]: #x 개수 어케 알지
+        for k in json_data[name]["regions"]: 
             x=k['shape_attributes']['x']
             #print(x)
             x_list.append(x)
-        for k in json_data[name]["regions"]: #x 개수 어케 알지
+        for k in json_data[name]["regions"]: 
             y=k['shape_attributes']['y']
             #print(y)
             y_list.append(y)
-        for k in json_data[name]["regions"]: #x 개수 어케 알지
+        for k in json_data[name]["regions"]: 
             y=k['shape_attributes']['width']
             #print(y)
             width_list.append(y)
-        for k in json_data[name]["regions"]: #x 개수 어케 알지
+        for k in json_data[name]["regions"]: 
             y=k['shape_attributes']['height']
             #print(y)
             height_list.append(y)
